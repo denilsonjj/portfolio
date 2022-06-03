@@ -1,0 +1,96 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+}
+/*nav*/
+.navbar-brand{
+  align-items: center;
+  color: #fff;
+}
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.photo-principal{
+  width: 40px;
+  height: 40px;
+  border-radius: 1em;
+  object-fit: cover;
+}
+
+.nav-link{
+  color: white
+}
+/*Section*/
+
+.imgTec{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  object-fit: cover;
+}
+.title{
+  text-align: center;
+  color: darkgray;
+  transition: 0.9 all
+}
+.line{
+  border-color:#aaa;
+  box-sizing:border-box;
+  width:100px;
+  margin: 0 auto;
+  margin-bottom: 10px
+}
+.textPrincipal{
+  margin: 0 200px;
+  text-align:center;
+}
+.content{
+  display: grid;
+  justify-content: center;
+}
+.imgTec:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+main{
+    background-image: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+}
+.areaCards{
+  display: flex;
+  justify-content:center;
+}
+
+.card{
+  margin: 10px
+}
+.card-body{
+  background-color: black;
+}
+h5{
+  color: black
+}
+
+/*footer*/
+footer{
+  background-image: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
+}
+.contatoArea{
+  display: flex;
+  justify-content: center;
+}
+i{
+  margin: 5px;
+}
+.link{
+  text-decoration: none;
+text-decoration-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .textPrincipal{
+  text-align:center;
+}
+
+}
