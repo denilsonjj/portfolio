@@ -77,15 +77,18 @@ footer{
   background-image: linear-gradient(to right top, #051937, #171228, #190a1a, #12040d, #000000);
 }
 .contatoArea{
+  background-color: #000;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 1em;
+  margin: 0 auto;
 }
-i{
-  margin: 5px;
+.contatoItens{
+  margin: 10px;
 }
-.link{
+a{
   text-decoration: none;
-text-decoration-color: white;
 }
 
 @media screen and (max-width: 700px) {
