@@ -3,6 +3,9 @@ body{
   color: whitesmoke;
 }
 /*nav*/
+nav{
+  background-color: #000
+}
 .navbar-brand{
   align-items: center;
   color: #fff;
